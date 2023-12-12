@@ -38,8 +38,13 @@ html {
   background-color: rgb(218, 207, 207);
 }
 
-.hp-grid {
-  height: 10%;
+.navbar-container {
+  height: 10vh;
+  width: 100%;
+}
+
+.navbar-grid {
+  height: 100%;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
@@ -48,6 +53,46 @@ html {
   background-color: aqua;
 }
 
-.item {
+.nav-item {
   border: 1px solid red;
+}
+
+.hero-container {
+  height: 45vh;
+  width: 100%;
+  background-color: rgb(154, 208, 61);
+}
+
+.hero-grid {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+
+  /* border: 1px solid red; */
+  background-color: rgb(214, 212, 190);
+}
+
+.hero-item {
+  border: 1px solid red;
+}
+
+.hero-container-2 {
+  height: 45vh;
+  width: 100%;
+  background-color: rgb(61, 208, 95);
+}
+
+.hero-grid-2 {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  /* border: 1px solid red; */
+  background-color: rgb(214, 212, 190);
+}
+
+.hero-item-2 {
+  border: 1px solid rgb(111, 0, 255);
 }
