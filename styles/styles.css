@@ -1,0 +1,53 @@
+/* animate css stylesheet  */
+
+@import 'animate.css';
+
+/* ----------- Reset and Common Styles ----------- */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Jost', sans-serif;
+  /* font-weight: 400; */
+}
+
+/* 1 rem = 10px */
+html {
+  font-size: 62.5%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* :root {
+  --primary-color: #6edae6;
+  --white-color: #fff;
+  --black-color: #000;
+} */
+/* ----------- End of Reset and Common Styles ----------- */
+
+.homepage {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(218, 207, 207);
+}
+
+.hp-grid {
+  height: 10%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+
+  /* border: 1px solid red; */
+  background-color: aqua;
+}
+
+.item {
+  border: 1px solid red;
+}
