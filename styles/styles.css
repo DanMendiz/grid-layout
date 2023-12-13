@@ -33,7 +33,7 @@ html {
 /* ----------- End of Reset and Common Styles ----------- */
 
 .homepage {
-  height: 100vh;
+  height: 200vh;
   width: 100%;
   background-color: rgb(218, 207, 207);
 }
@@ -58,7 +58,7 @@ html {
 }
 
 .hero-container {
-  height: 45vh;
+  height: 95vh;
   width: 100%;
   background-color: rgb(154, 208, 61);
 }
@@ -67,7 +67,7 @@ html {
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-columns: 2fr 3fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
 
   /* border: 1px solid red; */
   background-color: rgb(214, 212, 190);
@@ -78,7 +78,7 @@ html {
 }
 
 .hero-container-2 {
-  height: 45vh;
+  height: 95vh;
   width: 100%;
   background-color: rgb(61, 208, 95);
 }
@@ -87,7 +87,7 @@ html {
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 
   /* border: 1px solid red; */
   background-color: rgb(214, 212, 190);
