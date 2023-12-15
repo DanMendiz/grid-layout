@@ -40,6 +40,7 @@
     height: 45vh;
     width: 100%;
     background-color: rgb(61, 208, 88);
+    background:no-repeat url(https://www.robertefuller.com/wp-content/uploads/mother-and-baby-sloth-1200.jpg);
   }
 
   .hero-grid {
@@ -50,11 +51,12 @@
    
     /* border: 1px solid red; */
     background-color: rgb(190, 214, 205);
+    background:no-repeat url(https://www.robertefuller.com/wp-content/uploads/mother-and-baby-sloth-1200.jpg);
   }
 
   .hero-item {
     border: 1px solid red;
-    background-color: rgb(176, 27, 159);
+    /* background-color: rgb(176, 27, 159); */
     height: 45vh;
     /* width: 100%; */
   }
@@ -63,6 +65,7 @@
     height: 45vh;
     width: 100%;
     background-color: rgb(61, 208, 95);
+  
   }
 
   .hero-grid-2 {
