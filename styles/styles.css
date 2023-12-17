@@ -37,8 +37,7 @@ html {
   width: 100%;
   background-color: rgb(218, 207, 207);
   background: no-repeat
-  url(https://media.restless.co.uk/uploads/2022/08/beautiful-gardens-to-visit-in-the-uk.jpg);
-
+    url(https://media.restless.co.uk/uploads/2022/08/beautiful-gardens-to-visit-in-the-uk.jpg);
 }
 
 .navbar-container {
@@ -64,7 +63,7 @@ html {
   height: 90vh;
   width: 100%;
   /* background-color: rgb(154, 208, 61); */
-  }
+}
 .hero-grid {
   height: 100%;
   width: 100%;
@@ -90,9 +89,11 @@ html {
 .hph2 {
   /* width: 80%; */
   font-family: 'mathlete-bold';
-  color: azure;
+  color: white;
   font-size: 5rem;
-  text-shadow: 1px 1px 2px rgb(0, 255, 55), 0 0 1em rgb(20, 20, 113), 0 0 0.2em rgb(21, 21, 114);
+  text-shadow: 1px 1px 2px rgb(7, 28, 11), 0 0 1em rgb(20, 20, 113),
+    0 0 0.2em rgb(21, 21, 114);
+  padding: 1rem;
 }
 
 .hero-container-2 {
